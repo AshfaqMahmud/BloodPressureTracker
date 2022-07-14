@@ -3,7 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/BloodPressureTracker/app/src/main/res/layout/activity_main.xml" value="0.203125" />
+        <entry key="..\:/BloodPressureTracker/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/BloodPressureTracker/app/src/main/res/layout/input_layout.xml" value="0.25" />
       </map>
     </option>
   </component>
