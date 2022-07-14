@@ -37,67 +37,92 @@
             android:id="@+id/fullname"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:layout_marginBottom="10sp"
             android:autofillHints=""
+            android:background="@color/white"
             android:ems="10"
             android:fontFamily="@font/cambay"
             android:hint="Name"
             android:inputType="textPersonName"
             android:minHeight="48dp"
-            android:textColorHint="#DDE1F6" />
+            android:paddingLeft="15dp"
+            android:textColor="@color/black"
+            android:textColorHint="#757575" />
 
         <EditText
             android:id="@+id/usermail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:layout_marginBottom="10sp"
             android:autofillHints=""
+            android:background="@color/white"
             android:ems="10"
             android:fontFamily="@font/cambay"
             android:hint="Email"
             android:inputType="textEmailAddress"
             android:minHeight="48dp"
-            android:textColorHint="#DDE1F6" />
+            android:paddingLeft="15dp"
+            android:textColor="@color/black"
+            android:textColorHint="#757575" />
 
         <EditText
             android:id="@+id/userage"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:layout_marginBottom="10sp"
             android:autofillHints=""
+            android:background="@color/white"
             android:ems="10"
             android:fontFamily="@font/cambay"
             android:hint="Age"
             android:inputType="textPersonName"
             android:minHeight="48dp"
-            android:textColorHint="#DDE1F6" />
+            android:paddingLeft="15dp"
+            android:textColor="@color/black"
+            android:textColorHint="#757575" />
 
         <EditText
             android:id="@+id/password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:layout_marginBottom="10sp"
             android:autofillHints=""
+            android:background="@color/white"
             android:ems="10"
             android:fontFamily="@font/cambay"
             android:hint="Password"
             android:inputType="textPassword"
             android:minHeight="48dp"
-            android:textColorHint="#DDE1F6" />
+            android:paddingLeft="15dp"
+            android:textColor="@color/black"
+            android:textColorHint="#757575" />
 
         <EditText
             android:id="@+id/c_password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:layout_marginBottom="20sp"
-            android:autofillHints=""
-            android:ems="10"
 
+            android:autofillHints=""
+            android:background="@color/white"
+            android:ems="10"
             android:fontFamily="@font/cambay"
             android:hint="Confirm Password"
             android:inputType="textPassword"
             android:minHeight="48dp"
-            android:textColorHint="#DDE1F6" />
+            android:paddingLeft="15dp"
+            android:textColor="@color/black"
+            android:textColorHint="#757575" />
 
         <Button
             android:id="@+id/submit"
@@ -108,7 +133,8 @@
             android:layout_marginBottom="20sp"
             android:backgroundTint="#F50057"
             android:fontFamily="@font/alegreya_sans_sc"
-            android:padding="10sp"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
             android:text="Submit"
             android:textColor="@color/white"
             android:textSize="18sp"
@@ -122,10 +148,11 @@
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="20sp"
+            android:layout_marginTop="10sp"
             android:backgroundTint="#FFEB3B"
             android:fontFamily="@font/alegreya_sans_sc"
-            android:padding="10sp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
             android:text="Already user? Login"
             android:textAllCaps="false"
             android:textColor="@color/black"

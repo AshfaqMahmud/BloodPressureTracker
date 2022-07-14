@@ -40,34 +40,45 @@
                 android:id="@+id/usermail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
                 android:layout_marginBottom="10sp"
                 android:autofillHints=""
+                android:background="@color/white"
                 android:ems="10"
                 android:fontFamily="@font/cambay"
                 android:hint="Email"
                 android:inputType="textEmailAddress"
                 android:minHeight="48dp"
-                android:textColorHint="#C6BEBE" />
+                android:paddingLeft="15dp"
+                android:textColor="@color/black"
+                android:textColorHint="#757575" />
 
             <EditText
                 android:id="@+id/password"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
                 android:layout_marginBottom="10sp"
                 android:autofillHints=""
+                android:background="@color/white"
                 android:ems="10"
                 android:fontFamily="@font/cambay"
                 android:hint="Password"
                 android:inputType="textPassword"
                 android:minHeight="48dp"
-                android:textColorHint="#C6BEBE" />
+                android:paddingLeft="15dp"
+                android:textColor="@color/black"
+                android:textColorHint="#757575" />
 
             <CheckBox
                 android:id="@+id/rememberMe"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
                 android:text="Remember Me"
-                android:textColor="#D5D9DD" />
+                android:textColor="@color/black" />
 
             <Button
                 android:id="@+id/login"
@@ -75,12 +86,15 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="40sp"
-                android:backgroundTint="#9C27B0"
+                android:backgroundTint="#FFEB3B"
                 android:fontFamily="@font/alegreya_sans_sc"
-                android:padding="10sp"
+                android:paddingLeft="16dp"
+                android:paddingTop="16dp"
+                android:paddingRight="16dp"
+                android:paddingBottom="16dp"
                 android:text="Login"
                 android:textAllCaps="false"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
                 android:textSize="18sp"
                 android:textStyle="bold">
 
@@ -92,12 +106,15 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="20sp"
-                android:backgroundTint="#9C27B0"
+                android:backgroundTint="#F44336"
                 android:fontFamily="@font/alegreya_sans_sc"
                 android:gravity="center"
-                android:padding="10sp"
-                android:text="Register"
+                android:paddingLeft="16dp"
 
+                android:paddingTop="16dp"
+                android:paddingRight="16dp"
+                android:paddingBottom="16dp"
+                android:text="Register"
                 android:textAllCaps="false"
                 android:textColor="@color/white"
                 android:textSize="18sp"
