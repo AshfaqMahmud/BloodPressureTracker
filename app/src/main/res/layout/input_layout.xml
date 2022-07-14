@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/datainsert"
+    tools:context=".InsertToDB"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:src="@drawable/ic_baseline_arrow_back_24"
+            android:layout_marginTop="30dp"
+            android:contentDescription="@string/todo" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="50sp"
+            android:fontFamily="@font/alegreya_sans_sc"
+            android:text="Enter Your Data"
+            android:textColor="@color/white"
+            android:textSize="35sp" />
+
+
+        <EditText
+            android:id="@+id/getsystol"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10sp"
+            android:autofillHints=""
+            android:ems="10"
+            android:fontFamily="@font/cambay"
+            android:hint="Systol"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:textColorHint="#80FFFFFF" />
+
+        <EditText
+            android:id="@+id/getdiastol"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10sp"
+            android:autofillHints=""
+            android:ems="10"
+            android:fontFamily="@font/cambay"
+            android:hint="Diastol"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:textColorHint="#80FFFFFF" />
+
+        <EditText
+            android:id="@+id/getbpm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10sp"
+            android:autofillHints=""
+            android:ems="10"
+            android:fontFamily="@font/cambay"
+            android:hint="BPM"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:textColorHint="#80FFFFFF" />
+
+        <EditText
+            android:id="@+id/getcomment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30sp"
+            android:autofillHints=""
+            android:ems="10"
+            android:fontFamily="@font/cambay"
+            android:hint="Comment (in 100 charachters)"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:textColorHint="#80FFFFFF" />
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="104dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20sp"
+            android:layout_marginBottom="20sp"
+            android:backgroundTint="#CDDC39"
+            android:padding="10sp"
+            android:text="ADD"
+            android:textColor="@color/black"
+            android:textSize="18sp">
+
+        </Button>
+
+        <Button
+            android:id="@+id/cacnel"
+            style="@style/Widget.MaterialComponents.Button.Icon"
+            android:layout_width="104dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20sp"
+            android:backgroundTint="#F44336"
+            android:padding="10sp"
+            android:text="Cancel"
+            android:textAllCaps="false"
+            android:textSize="18sp">
+
+        </Button>
+    </LinearLayout>
+</LinearLayout>
