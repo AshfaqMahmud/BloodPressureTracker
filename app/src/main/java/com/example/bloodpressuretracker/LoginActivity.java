@@ -19,7 +19,7 @@ import com.google.firebase.database.ValueEventListener;
 
 public class LoginActivity extends AppCompatActivity {
     FirebaseDatabase rootnode =FirebaseDatabase.getInstance();
-    DatabaseReference reference= rootnode.getReferenceFromUrl("https://blood-pressure-tracker-1d80a-default-rtdb.firebaseio.com/");
+    DatabaseReference reference= rootnode.getReferenceFromUrl("https://bptrt-4c5f4-default-rtdb.firebaseio.com/");
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +32,8 @@ public class LoginActivity extends AppCompatActivity {
         final Button btn1= findViewById(R.id.login);
         final Button btn2= findViewById(R.id.register);
 
+
+        //login button action
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -78,6 +80,9 @@ public class LoginActivity extends AppCompatActivity {
 
             }
         });
+
+
+        //register button action
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -86,5 +91,7 @@ public class LoginActivity extends AppCompatActivity {
                 finish();
             }
         });
+
+        //custom back button action
     }
 }
