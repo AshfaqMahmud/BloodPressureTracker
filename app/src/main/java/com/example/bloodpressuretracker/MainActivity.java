@@ -1,8 +1,6 @@
 package com.example.bloodpressuretracker;
 
 import androidx.appcompat.app.AppCompatActivity;
-
-import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
