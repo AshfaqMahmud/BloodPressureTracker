@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "877495536373",
+    "firebase_url": "https://bptrt-4c5f4-default-rtdb.firebaseio.com",
+    "project_id": "bptrt-4c5f4",
+    "storage_bucket": "bptrt-4c5f4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:877495536373:android:23fa5f860195b628f213bc",
+        "android_client_info": {
+          "package_name": "com.example.bloodpressuretracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "877495536373-n66t9f9d2kd5mcfhri251726dan9itpn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQbtLmX7smMEHgLMiUcRAicxX8tsWTnps"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "877495536373-n66t9f9d2kd5mcfhri251726dan9itpn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
