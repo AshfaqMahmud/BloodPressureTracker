@@ -18,7 +18,7 @@ import com.google.firebase.database.ValueEventListener;
 
 public class RegistrationActivity extends AppCompatActivity {
     FirebaseDatabase database = FirebaseDatabase.getInstance();
-    DatabaseReference reference= database.getReferenceFromUrl("https://blood-pressure-tracker-1d80a-default-rtdb.firebaseio.com/");
+    DatabaseReference reference= database.getReferenceFromUrl("https://bptrt-4c5f4-default-rtdb.firebaseio.com/");
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,6 +27,7 @@ public class RegistrationActivity extends AppCompatActivity {
         final EditText name=findViewById(R.id.fullname);
         final EditText mail=findViewById(R.id.usermail);
         final EditText age=findViewById(R.id.userage);
+        final EditText phone=findViewById(R.id.phone);
         final EditText pass=findViewById(R.id.password);
         final EditText cpass=findViewById(R.id.c_password);
         final Button btn1= findViewById(R.id.submit);
@@ -39,10 +40,11 @@ public class RegistrationActivity extends AppCompatActivity {
                 final String fname=name.getText().toString();
                 final String email=mail.getText().toString();
                 final String uage=age.getText().toString();
+                final String phones=phone.getText().toString();
                 final String pass1=pass.getText().toString();
                 //final String pass2=cpass.getText().toString();
 
-                if(fname.isEmpty()||email.isEmpty()||uage.isEmpty()||pass1.isEmpty())
+                if(fname.isEmpty()||email.isEmpty()||uage.isEmpty()||pass1.isEmpty()||phones.isEmpty())
                 {
                     Toast.makeText(RegistrationActivity.this, "Please fill all the fields", Toast.LENGTH_SHORT).show();
                 }
@@ -61,10 +63,11 @@ public class RegistrationActivity extends AppCompatActivity {
                         }
                     });
 
-                    reference.child("users").child(email).child("Name").setValue(fname);
-                    reference.child("users").child(email).child("Email").setValue(email);
-                    reference.child("users").child(email).child("Age").setValue(uage);
-                    reference.child("users").child(email).child("Password").setValue(pass1);
+                    reference.child("users").child(phones).child("Name").setValue(fname);
+                    reference.child("users").child(phones).child("Email").setValue(email);
+                    reference.child("users").child(phones).child("Age").setValue(uage);
+                    reference.child("users").child(phones).child("Phone").setValue(phones);
+                    reference.child("users").child(phones).child("Password").setValue(pass1);
 
                     Toast.makeText(RegistrationActivity.this, "Registration Successful", Toast.LENGTH_SHORT).show();
 

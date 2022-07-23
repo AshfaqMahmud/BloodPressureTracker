@@ -35,6 +35,8 @@ public class InsertToDB extends AppCompatActivity {
                 long x = sqLiteDB.insertData(sys, dia, bpm, cmnt);
                 if (x != -1) {
                     Toast.makeText(InsertToDB.this, "Success Insertion", Toast.LENGTH_SHORT).show();
+
+
                 } else {
                     Toast.makeText(InsertToDB.this, "Unsuccessful", Toast.LENGTH_SHORT).show();
                 }

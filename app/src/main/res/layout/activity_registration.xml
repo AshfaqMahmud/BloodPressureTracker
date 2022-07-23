@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".RegistrationActivity"
     android:background="@drawable/bg"
-    android:padding="30dp">
+    android:padding="20dp">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -14,12 +14,13 @@
         android:orientation="vertical">
 
         <ImageView
+            android:id="@+id/backimg"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="5dp"
             android:layout_marginBottom="20dp"
-            android:src="@drawable/ic_baseline_arrow_back_24"
-            android:contentDescription="@string/todo" />
+            android:contentDescription="@string/todo"
+            android:padding="5dp"
+            android:src="@drawable/ic_baseline_arrow_back_24" />
 
 
         <TextView
@@ -88,6 +89,24 @@
             android:textColorHint="#757575" />
 
         <EditText
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10sp"
+            android:autofillHints=""
+            android:background="@color/white"
+            android:ems="10"
+            android:fontFamily="@font/cambay"
+            android:hint="Phone"
+            android:inputType="phone"
+            android:minHeight="48dp"
+            android:paddingLeft="15dp"
+            android:textColor="@color/black"
+            android:textColorHint="#757575" />
+
+        <EditText
             android:id="@+id/password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -130,7 +149,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="20sp"
-            android:layout_marginBottom="20sp"
+            android:layout_marginBottom="10sp"
             android:backgroundTint="#F50057"
             android:fontFamily="@font/alegreya_sans_sc"
             android:paddingTop="16dp"
@@ -144,15 +163,14 @@
 
         <Button
             android:id="@+id/already_user"
-            style="@style/Widget.MaterialComponents.Button.Icon"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="10sp"
-            android:backgroundTint="#FFEB3B"
+            android:backgroundTint="#C6FF00"
             android:fontFamily="@font/alegreya_sans_sc"
-            android:paddingTop="10dp"
-            android:paddingBottom="10dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
             android:text="Already user? Login"
             android:textAllCaps="false"
             android:textColor="@color/black"
