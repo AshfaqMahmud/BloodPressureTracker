@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="@drawable/bg"
+    android:background="#03A9F4"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".UserList">
@@ -10,13 +10,13 @@
     <TextView
         android:id="@+id/tv"
         android:layout_width="match_parent"
-        android:gravity="center"
-        android:padding="15dp"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-
-        android:background="#0C316E"
+        android:background="#030932"
         android:fontFamily="@font/alegreya_sans_sc"
+
+        android:gravity="center"
+        android:padding="15dp"
         android:text="Dashboard"
         android:textColor="@color/white"
         android:textSize="25sp"
