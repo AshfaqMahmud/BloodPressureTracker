@@ -2,6 +2,7 @@ package com.example.bloodpressuretracker;
 
 import android.content.Context;
 
+import androidx.test.filters.LargeTest;
 import androidx.test.platform.app.InstrumentationRegistry;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 
@@ -24,3 +25,4 @@ public class ExampleInstrumentedTest {
         assertEquals("com.example.bloodpressuretracker", appContext.getPackageName());
     }
 }
+
