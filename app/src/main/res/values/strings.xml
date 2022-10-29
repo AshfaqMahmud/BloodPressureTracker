@@ -6,8 +6,8 @@
     <string name="bpm" />
     <string name="diastolic" />
     <string name="date">Date</string>
-    <string name="view">View</string>
-    <string name="add">ADD</string>
+    <string name="view">View Records</string>
+    <string name="add">Add Record</string>
     <string name="demo">DEMO</string>
     <string name="systole">Systole</string>
 </resources>
